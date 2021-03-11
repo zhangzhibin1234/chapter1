@@ -10,13 +10,10 @@ import com.designPattern.facotry.Milk;
  **/
 public class FactoryMethodTest {
     public static void main(String[] args) {
-//        MilkFactory factory = new MenniuFactory();
-//        Milk menniuMilk = factory.getMilk();
-//        System.out.println(menniuMilk.getName());
-        double a =5.2d;
-        String b="4.3";
-        String c =a+b;
-        System.out.println(c);
+        MilkFactory factory = new MenniuFactory();
+        Milk menniuMilk = factory.getMilk();
+        System.out.println(menniuMilk.getName());
+
 
     }
 }

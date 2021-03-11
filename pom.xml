@@ -66,7 +66,11 @@
             <version>1.20</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.34</version>
+        </dependency>
     </dependencies>
 
     <build>

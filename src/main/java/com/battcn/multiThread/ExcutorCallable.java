@@ -17,6 +17,7 @@ public class ExcutorCallable {
         //获取一个线程池对象并且提交线程任务
         service.submit(callable);
         service.submit(callable);
+        service.submit(callable);
         //关闭线程池对象
         service.shutdown();
     }
